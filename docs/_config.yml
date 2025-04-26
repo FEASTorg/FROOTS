@@ -20,9 +20,8 @@ exclude:
 
 # automatically apply layout: page to all docs/*.md
 defaults:
-  -
-    scope:
-      path: ""         # everything under docs/
+  - scope:
+      path: "" # everything under docs/
       type: "pages"
     values:
       layout: "page"
